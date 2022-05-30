@@ -227,12 +227,14 @@ function App() {
           </div>
 
         ) : (
-          <button
-            className='app__button'
-            onClick={() => onStart()}
-          >
-            Start
-          </button>
+          <div className='app__button-container'>
+            <button
+              className='app__button'
+              onClick={() => onStart()}
+            >
+              Start
+            </button>
+          </div>
         )}
 
         {/* Generation Count */}
@@ -248,7 +250,7 @@ function App() {
           <canvas className='app__canvas' ref={CanvasOriginalRef} src={Image1} />
         </div>
         <div className='app__last-result'>
-          <p>Resul Image</p>
+          <p>Result Image</p>
           <canvas className='app__canvas' ref={CanvasResultRef} />
         </div>
       </div>
