@@ -4,14 +4,14 @@ This project is an activity of the Computer Science Bachelor at the University f
 
 ## About the Project
 
-The objective of this project is generate an Image from random pixels using genetic algorithm concepts and processing digital image processing. It consists on the following processes:
+The objective of this project is generating an Image from random pixels using genetic algorithm concepts and processing digital image processing. It consists of the following processes:
 - Extract Pixels from original Image;
-- Generate an Initial Population with random pixels according to the number especified;
-- Compare each individual with the original image throgh the Fitness Function;
+- Generate an Initial Population with random pixels according to the number specified;
+- Compare each individual with the original image through the Fitness Function;
 - Get the Best Individuals;
 - Generate Children from the best Individuals;
 - Mutate the Children
-- Restart the Process Comparing this New Generation with the original Image
+- Restart the Process Comparing the New Generation with the original Image
 
 ### How to Install
 
